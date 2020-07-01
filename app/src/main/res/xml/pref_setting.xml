@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="基本设置">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="open"
+            android:title="抢红包" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:dependency="open"
+            android:key="amount"
+            android:title="金额提示" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="open"
+            android:key="self"
+            android:title="自己发的不抢" />
+
+        <EditTextPreference
+            android:dependency="open"
+            android:key="set_uid"
+            android:title="UID" />
+
+        <EditTextPreference
+            android:dependency="open"
+            android:key="set_uuid"
+            android:title="UUID" />
+
+        <EditTextPreference
+            android:dependency="open"
+            android:key="set_token"
+            android:title="Token" />
+
+        <EditTextPreference
+            android:dependency="open"
+            android:defaultValue="1800"
+            android:hint="包含等于"
+            android:key="how_to_qiang"
+            android:title="大于多少元抢(整数或小数)" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="关于">
+        <Preference
+            android:key="author"
+            android:hint="根号③"
+            android:title="作者">
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
