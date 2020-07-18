@@ -15,7 +15,9 @@
 3.按F12键打开开发者模式，然后点击Network(网络)
 4.扫描网页二维码
 5.按下图中所示找到相应信息
-
+![image](https://github.com/genhao3/liaobei/blob/master/picture/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200718125246.png)
+![image](https://github.com/genhao3/liaobei/blob/master/picture/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200718125259.png)
+![image](https://github.com/genhao3/liaobei/blob/master/picture/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200718125304.png)
 
 如果你知道怎么获取uid、tk和uuid参数，欢迎一起交流！
 
